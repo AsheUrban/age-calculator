@@ -19,3 +19,8 @@ Astronaut.prototype.CalculatePlanetAgeVen = function () {
   this.newPlanetAge = (earthAge * venPlanetYr);
   return this.newPlanetAge;
 }
+
+Astronaut.prototype.CalculatePlanetAgeMars = function () {
+  this.newPlanetAge = (earthAge * marsPlanetYr);
+  return this.newPlanetAge;
+}
