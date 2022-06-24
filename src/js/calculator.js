@@ -1,9 +1,10 @@
 export default function Astronaut (earthAge, newPlanetAge) {
   this.earthAge = earthAge;
   this.newPlanetAge = newPlanetAge;
+  this.lifeExpectancy = this.lifeExpectancy;
 };
 
-let earthAge = 12;
+let earthAge = 1;
 const mercPlanetYr = .24;
 const venPlanetYr = .62;
 const marsPlanetYr = 1.88;
