@@ -1,16 +1,13 @@
 // import $ from "jquery";
 
-
-
-
-
-export default function calculatePlanetAge(earthAge, planetYr) {
+export default function calculatePlanetAge() {
   if(planet === "Mercury") {
-    (earthAge * planetYr);
+   newPlanetAge = (earthAge * .24);
+    return newPlanetAge;
   }
+  
 }
 
-let planet = "Mercury";
-const planetYr = .24;
-const earthAge = 80;
 let newPlanetAge = 0;
+let planet = "Mercury";
+const earthAge = 12;
