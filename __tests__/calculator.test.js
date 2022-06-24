@@ -19,6 +19,11 @@ describe("Astronaut", () => {
     expect (newAstronautVen.CalculatePlanetAgeVen()).toEqual(7.4399999999999995);
     });
 
+      test("it should calculate age for Astronaut on Mars", () => {
+        const newAstronautMars = new Astronaut(0,0);
+        expect (newAstronautMars.CalculatePlanetAgeMars()).toEqual(22.56);
+      });
+
   });
 
 
