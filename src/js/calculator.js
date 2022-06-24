@@ -10,15 +10,15 @@ export default function Astronaut (earthAge, newPlanetAge) {
 Astronaut.prototype.CalculatePlanetAge = function () {
   for (let index = 0; index <= earthAge; index += 1) {
      if(planet === "Mercury") {
-      this.newPlanetAge = (earthAge * mercPlanetYr);
+      this.newPlanetAge = (earthAge * PlanetYr);
      }
      return this.newPlanetAge;
   }
 }
 
 let planet = "Mercury";
-let mercPlanetYr = .24;
-let earthAge = 12;
+let PlanetYr = 0;
+let earthAge = 0;
 
 
 
