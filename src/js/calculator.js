@@ -5,20 +5,20 @@ export default function Astronaut (earthAge, newPlanetAge) {
   this.newPlanetAge = newPlanetAge;
 };
 
-let newAstronaut1 = new Astronaut(0,0);
+// let newAstronaut1 = new Astronaut(0,0);
 
-// Astronaut.prototype.CalculatePlanetAge(earthAge, newPlanetAge) {
-//   for (let index = 0; index <= earthAge; index += 1) {
-//      if(planet === "Mercury") {
-//       this.newPlanetAge = (earthAge * mercPlanetYr);
-//      }
-//      return this.newPlanetAge;
-//   }
-// }
+Astronaut.prototype.CalculatePlanetAge = function () {
+  for (let index = 0; index <= earthAge; index += 1) {
+     if(planet === "Mercury") {
+      this.newPlanetAge = (earthAge * mercPlanetYr);
+     }
+     return this.newPlanetAge;
+  }
+}
 
-// let planet = "Mercury";
-// let mercPlanetYr = .24;
-// let earthAge = 12;
+let planet = "Mercury";
+let mercPlanetYr = .24;
+let earthAge = 12;
 
 
 

@@ -4,9 +4,14 @@ import Astronaut from '../src/js/calculator.js';
 describe("Astronaut", () => {
 
   test("it should correctly create an Astronaut object with two properties", () => {
-    const astronaut = new Astronaut(0,0)
-    expect (astronaut.earthAge).toEqual(0)
+    const astronaut = new Astronaut(0,0);
+    expect (astronaut.earthAge).toEqual(0);
     expect (astronaut.newPlanetAge).toEqual(0);
-  })
+  });
+
+  test("it should calculate age for Astronaut on Mercury", () => {
+  const newAstronaut = new Astronaut(0,0);
+  expect (newAstronaut.CalculatePlanetAge()).toEqual(2.88);
+  });
 
 });
