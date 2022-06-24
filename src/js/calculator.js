@@ -1,17 +1,24 @@
 // import $ from "jquery";
 
-export default function calculatePlanetAge() {
-  for (let index = 0; index <= earthAge; index += 1) {
-     if(planet === "Mercury") {
-      return (earthAge * mercPlanetYr);
-     }
-  }
-}
+export default function Astronaut (earthAge, newPlanetAge) {
+  this.earthAge = earthAge;
+  this.newPlanetAge = newPlanetAge;
+};
 
+let newAstronaut1 = new Astronaut(0,0);
 
-let planet = "Mercury";
-let mercPlanetYr = .24;
-let earthAge = 12;
+// Astronaut.prototype.CalculatePlanetAge(earthAge, newPlanetAge) {
+//   for (let index = 0; index <= earthAge; index += 1) {
+//      if(planet === "Mercury") {
+//       this.newPlanetAge = (earthAge * mercPlanetYr);
+//      }
+//      return this.newPlanetAge;
+//   }
+// }
+
+// let planet = "Mercury";
+// let mercPlanetYr = .24;
+// let earthAge = 12;
 
 
 

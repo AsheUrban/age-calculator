@@ -1,13 +1,12 @@
-import calculatePlanetAge from '../src/js/calculator.js';
+import Astronaut from '../src/js/calculator.js';
 
 
-describe("calculatePlanetAge", () => {
+describe("Astronaut", () => {
 
-  test("it should calculate age based on Mercury year", () => {
-    // let planet = "Mercury";
-    // let mercPlanetYr = .24;
-    // let earthAge = 12;
-    expect(earthAge.calculatePlanetAge()).toEqual();
+  test("it should correctly create an Astronaut object with two properties", () => {
+    const astronaut = new Astronaut(0,0)
+    expect (astronaut.earthAge).toEqual(0)
+    expect (astronaut.newPlanetAge).toEqual(0);
   })
 
 });
