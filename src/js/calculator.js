@@ -24,3 +24,8 @@ Astronaut.prototype.CalculatePlanetAgeMars = function () {
   this.newPlanetAge = (earthAge * marsPlanetYr);
   return this.newPlanetAge;
 }
+
+Astronaut.prototype.CalculatePlanetAgeJup = function () {
+  this.newPlanetAge = (earthAge * jupPlanetYr);
+  return this.newPlanetAge;
+}
