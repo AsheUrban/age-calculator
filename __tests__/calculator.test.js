@@ -1,10 +1,11 @@
 import Calculator from '../src/js/calculator.js';
 
 
-// describe("exampleTestFunction", () => {
+describe("CalculatePlanetAge", () => {
 
-//   test("should....", () => {
-//     expect(exampleTestFunction()).toEqual("hi there, from the deck")
-//   });
+  test("it should multiply earthAge * planetYr", () => {
+    let newPlanetAge = new (0);
+    expect(newPlanetAge.CalulatePlanetAge()).toEqual(earthAge * planetYr);
+  })
 
-// });
+});
