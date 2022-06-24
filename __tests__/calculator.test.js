@@ -10,8 +10,15 @@ describe("Astronaut", () => {
   });
 
   test("it should calculate age for Astronaut on Mercury", () => {
-  const newAstronaut = new Astronaut(0,0);
-  expect (newAstronaut.CalculatePlanetAge()).toEqual(0);
+    const newAstronautMerc = new Astronaut(0,0);
+    expect (newAstronautMerc.CalculatePlanetAgeMerc()).toEqual(2.88);
+    });
+
+  test("it should calculate age for Astronaut on Venus", () => {
+    const newAstronautVen = new Astronaut(0,0);
+    expect (newAstronautVen.CalculatePlanetAgeVen()).toEqual(7.4399999999999995);
+    });
+
   });
 
-});
+
