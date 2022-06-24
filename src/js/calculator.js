@@ -1,32 +1,36 @@
-export default function Astronaut (earthAge, newPlanetAge) {
+let earthAge = 0;
+let newPlanetAge = 0;
+let lifeExpectancy = 0;
+
+// const mercPlanetYr = .24;
+// const venPlanetYr = .62;
+// const marsPlanetYr = 1.88;
+// const jupPlanetYr = 11.86;
+
+export default class Astronaut {
+constructor(earthAge, newPlanetAge) {
   this.earthAge = earthAge;
   this.newPlanetAge = newPlanetAge;
-  this.lifeExpectancy = this.lifeExpectancy;
-};
-
-let earthAge = 1;
-const mercPlanetYr = .24;
-const venPlanetYr = .62;
-const marsPlanetYr = 1.88;
-const jupPlanetYr = 11.86;
-
-
-Astronaut.prototype.CalculatePlanetAgeMerc = function () {
-  this.newPlanetAge = (earthAge * mercPlanetYr);
-  return this.newPlanetAge;
+  this.lifeExpectancy = lifeExpectancy;
 }
 
-Astronaut.prototype.CalculatePlanetAgeVen = function () {
-  this.newPlanetAge = (earthAge * venPlanetYr);
-  return this.newPlanetAge;
-}
+// CalculatePlanetAgeMerc() {
+//  return this.earthAge * mercPlanetYr;
+// }
 
-Astronaut.prototype.CalculatePlanetAgeMars = function () {
-  this.newPlanetAge = (earthAge * marsPlanetYr);
-  return this.newPlanetAge;
-}
+// CalculatePlanetAgeVen() {
+//   this.newPlanetAge = (earthAge * venPlanetYr);
+//   return this.newPlanetAge;
+// }
 
-Astronaut.prototype.CalculatePlanetAgeJup = function () {
-  this.newPlanetAge = (earthAge * jupPlanetYr);
-  return this.newPlanetAge;
+// CalculatePlanetAgeMars() {
+//   this.newPlanetAge = (earthAge * marsPlanetYr);
+//   return this.newPlanetAge;
+// }
+
+// CalculatePlanetAgeJup() {
+//   this.newPlanetAge = (earthAge * jupPlanetYr);
+//   return this.newPlanetAge;
+//   }
+
 }
