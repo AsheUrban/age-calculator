@@ -1,31 +1,36 @@
-# (Application Name)
+# _Independent Project #5: Space Age Calculator_
 
-#### (Brief Description of Application)
+#### _A page demonstrating new skills in classes and testing with Jest!_
 
-#### By (Your Name Here)
+#### By _Ashe Urban_
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _JavaScript_
+* _Markdown_
 
 ## Description
 
+_A solar year lasts 365 days on planet Earth. However, the length of a solar year varies from planet to planet. For instance, a solar year on Mercury lasts 88 days. Write an application that determines a user's age based on a planet's solar years._
+
+_link to assignment:_ https://epicenter.epicodus.com/courses/967/code_reviews/5852
+
+
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone this repository to your desktop_
+* _Navigate to the top level of the directory_
+* _run "npm install"_
+* _run "npm run build" or "npm run start"_
+
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _Application does not calculate life expectancy_
 
 ## License
 
+_MIT_
+
 ## Contact Information
+Copyright (c) _2022_ _Ashe Urban_
