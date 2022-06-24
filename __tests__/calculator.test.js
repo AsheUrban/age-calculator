@@ -27,11 +27,11 @@ describe("Astronaut", () => {
     expect (newAstronautVen.CalculatePlanetAgeVen()).toEqual(.62);
     });
 
-  // test("it should calculate age for Astronaut on Mars", () => {
-  //   const newAstronautMars = new Astronaut();
-  //   newAstronautMars.earthAge = 1;
-  //   expect (newAstronautMars.CalculatePlanetAgeMars()).toEqual(1.88);
-  // });
+  test("it should calculate age for Astronaut on Mars", () => {
+    const newAstronautMars = new Astronaut();
+    newAstronautMars.earthAge = 1;
+    expect (newAstronautMars.CalculatePlanetAgeMars()).toEqual(1.88);
+  });
 
   // test("it should calculate age for Astronaut on Jupiter", () => {
   //   const newAstronautJup = new Astronaut();
