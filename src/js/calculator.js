@@ -1,8 +1,8 @@
-let earthAge = 0;
+let earthAge = 1;
 let newPlanetAge = 0;
 let lifeExpectancy = 0;
 
-// const mercPlanetYr = .24;
+const mercPlanetYr = .24;
 // const venPlanetYr = .62;
 // const marsPlanetYr = 1.88;
 // const jupPlanetYr = 11.86;
@@ -14,9 +14,10 @@ constructor(earthAge, newPlanetAge) {
   this.lifeExpectancy = lifeExpectancy;
 }
 
-// CalculatePlanetAgeMerc() {
-//  return this.earthAge * mercPlanetYr;
-// }
+CalculatePlanetAgeMerc() {
+ this.newPlanetAge = (earthAge * mercPlanetYr); 
+ return this.newPlanetAge;
+}
 
 // CalculatePlanetAgeVen() {
 //   this.newPlanetAge = (earthAge * venPlanetYr);
