@@ -15,11 +15,10 @@ describe("Astronaut", () => {
     expect (astronaut.lifeExpectancy).toEqual(0);
     });
 
-
-  // test("it should calculate age for Astronaut on Mercury", () => {
-  //   const newAstronautMerc = new Astronaut();
-  //   expect (newAstronautMerc.CalculatePlanetAgeMerc()).toEqual(0);
-  //   });
+  test("it should calculate age for Astronaut on Mercury", () => {
+    const newAstronautMerc = new Astronaut();
+    expect (newAstronautMerc.CalculatePlanetAgeMerc()).toEqual();
+    });
 
   // test("it should calculate age for Astronaut on Venus", () => {
   //   const newAstronautVen = new Astronaut(0,0);
